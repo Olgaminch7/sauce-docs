@@ -10,7 +10,8 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
-    "clear": "docusaurus clear"
+    "clear": "docusaurus clear",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@algolia/client-search": "4.10.3",
@@ -54,6 +55,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.11",
-    "prettier": "2.8.0"
+    "prettier": "2.8.0",
+    "husky": "^8.0.0"
   }
 }
