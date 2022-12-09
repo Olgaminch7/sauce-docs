@@ -1,4 +1,27 @@
 {
+  "overrides": [
+    {
+      "files": "./docs/**/*.md",
+      "options": {
+        "parser": "markdown",
+        "trailingComma": "none",
+        "jsxSingleQuote": false,
+        "semi": false
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "html"
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "parser": "css"
+      }
+    }
+  ],
   "tabWidth": 2,
   "useTabs": true,
   "printWidth": 80,
